@@ -1,0 +1,36 @@
+///*************************/////
+
+//Render UI Page Elements with .jade 
+
+////************************//////
+
+doctype html
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='//code.jquery.com/jquery-1.11.0.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/index.js')
+    title Chat Server
+  body
+    div#header
+    div#container
+      h1.textCenter The Wizard's Awesome Chat Server
+      div.topMargin
+        div.inlineBlock
+          span Username:
+            input(type="text", value="Anonymous")#name
+          br
+        div.inlineBlock.topAligned(style='text-align: right') 
+        
+          b.participantsLabel Users
+          br
+          div#participants
+      div
+        ul
+          li#messages
+      form#messageForm
+        textarea(rows="5", cols="65", placeholder="Whats on your mind?", maxlength=200)#outgoingMessage
+        input(type="button", value="Share", disabled=true)#send
+     div#footer
