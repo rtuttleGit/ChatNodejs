@@ -27,7 +27,7 @@ var participants = [];
 /* Server config */
 
 //Server's IP address
-app.set("ipaddr", "127.0.0.1");
+//app.set("ipaddr", "127.0.0.1");
 
 //Server's port number
 app.set("port", 1337);
