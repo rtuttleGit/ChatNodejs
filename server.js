@@ -27,10 +27,10 @@ var participants = [];
 /* Server config */
 
 //Server's IP address
-//app.set("ipaddr", "127.0.0.1");
+//app.set("ipaddr", "54.69.54.148");
 
 //Server's port number
-app.set("port", 1337);
+app.set("port", 8080);
 
 //Specify the views folder
 app.set("views", __dirname + "/views");
