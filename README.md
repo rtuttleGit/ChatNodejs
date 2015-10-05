@@ -14,6 +14,6 @@ Finally run script
 Terminal : $ node server.js
 Go to http://127.0.0.1:8080
 
-Desription:
+Description:
 Application is a simple chat server that uses socket.io to connect and listen to users communicate with the chat server. Users can successfully communicate and chat back and forth.
 
